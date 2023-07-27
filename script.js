@@ -1,10 +1,7 @@
 
 let taskCount =0;
 
-let addTask=() =>{
-    //let taskTitle = document.getElementsByClassName("title");
-    console.log("WOrking");
-    console.log(taskCount);
+let addTask=() =>{       
 
     // getting the input texxt of task
     let taskTitleElement= document.querySelector(".title");
