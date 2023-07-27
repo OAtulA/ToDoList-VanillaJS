@@ -1,0 +1,75 @@
+
+body{
+    width: 80vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.add-bar{
+    background-color: rgb(252, 0, 0);
+    margin-top: 2rem;
+
+    height: 12rem;
+}
+
+.add-bar div:first-child{
+    color:white;
+    text-align: center;
+
+    font-size: 1.5rem;
+    padding-top: 3.3rem;
+    font-weight: bold;
+}
+
+.add-column{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title{
+    width: 80%;
+    background-color: rgb(255, 255, 239);
+    font-size: 1rem;
+
+    text-align: left;
+}
+
+.add{
+    width: 20%;
+    font-size: 1.3rem;
+    background-color: rgb(206, 196, 196);
+    padding-top: 0.8em;
+    
+
+    text-align: center;
+
+}
+
+.last{
+    display: none;
+}
+
+.task{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.taskContent{
+    font-size: 1.5rem;
+    width: 95%;
+}
+
+.task button:last-child{
+    width: 5%;
+    min-width: 15px;
+}
+
+.checked::before{
+    content: "\2713";    
+}
+.checked{
+    text-decoration: line-through;
+}
